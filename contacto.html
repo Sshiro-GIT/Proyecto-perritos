@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!--css-->
+    <link rel="stylesheet" href="./styles/estilos.css">
+    <!--icono-->
+    <link rel="shortcut icon" href="./images/lila.png">
+    <!--fuentes-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!--librerias-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div id="page">
+        <!--modoOscuro-->
+        <div class="container-btn-mode">
+            <div id="id-sun" class="btn-mode sun active">
+                <i class="fas fa-sun"></i>
+            </div>
+            <div id="id-moon" class="btn-mode moon">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+        <!--header-->
+        <header>
+            <div class="contenedor">
+                <h1 class="titulo">Contactanos 📞</h1>
+            </div>
+        </header>
+        <!--navbar-->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">🐶</a>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="perritos.html">Adoptar</a></li>
+                    <li><a href="dogs.html">razas & fotos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Contacto-->
+        <div class="datosUser">
+            <h2 class="datosda">
+                DATOS DEL ADOPTANTE
+            </h2>
+        </div>
+        <!--formulario del contacto-->
+        <form id="formulario" action="#" method="POST">
+            <div class="grupo">
+                <input type="text" name="" id="name" ><span class="barra"></span>
+                <label for="">Nombre</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="" id="email" ><span class="barra"></span>
+                <label for="">Email</label>
+            </div>
+            <div class="grupo">
+                <input type="password" name="" id="password" ><span class="barra"></span>
+                <label for="">Password</label>
+            </div>
+            <button type="submit">Suscribirte</button>
+        </form>
+        <div class="contenedor" id="pad">
+            <p class="datosda">
+                Es de suma importancia que a la hora de querer adoptar un perro usted tenga los siguientes requisitos: <br>
+                - Ser mayor de edad (18 años en adelante)<br>
+                - Contar con ingresos estables que garanticen la manutención óptima del animal.<br>
+                - Poseer collar, guacal, cargador o traílla para el transporte de la mascota. Si se trata de un canino de raza potencialmente peligrosa debe tener un bozal.<br>
+                - Tener disposición de tiempo para el trámite de adopción. La duración del proceso depende de las particularidades de cada animal.<br>
+                - Las personas que vivan en arriendo deben contar con el permiso expreso del dueño de la vivienda para poder ingresar animales de compañía.<br>
+                - Si el interesado tiene una o más mascotas en casa debe reportarlo con antelación para que el ente encargado determine la viabilidad de la adopción.<br>
+                - El seno familiar del aspirante debe estar de acuerdo con la llegada del animal de compañía.<br>
+            </p>
+        </div>
+        <!--Pie de pagina-->
+        <footer  class="contenedor-footer" id="footer-fondo">
+            <div class="contenedor-footer">
+                <div class="redes">
+                    <p>
+                        Redes
+                    </p>
+                </div>
+                <div>
+                    <ul class="footer">
+                        <li><a href="#"><img src="./images/instagram.png" alt="instagram"></a></li>
+                        <li><a href="#"><img src="./images/whatsApp.svg.png" alt="whatapp"></a></li>
+                        <li><a href="#"><img src="./images/fb.png" alt="facebook"></a></li>
+                    </ul>
+                </div>
+                <div class="copy">
+                    <p>autor: Nahuel Diego Otero</p>
+                    <p>copyright 2022</p>
+                </div>  
+            </div>
+        </footer>
+    </div>
+    <script src="./js/contacto.js"></script>
+    <script src="./js/darkmode.js"></script>
+</body>
+</html>
